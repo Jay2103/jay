@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+<link rel="shortcut icon" href="profile/lg.png">
+    <!-- Font Awesome -->
+<link
+href="css/all.min.css"
+rel="stylesheet"
+/>
+<!-- Google Fonts -->
+<link
+href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+rel="stylesheet"
+/>
+<!-- MDB -->
+<link
+href="css/mdb.min.css"
+rel="stylesheet"
+/>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+
+
+
+<!-- MDB -->
+<script
+  type="text/javascript"
+  src="js/mdb.min.js"
+></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<style>
+    .breadcrumb-item+.breadcrumb-item:before
+    {
+        content: var(--mdb-breadcrumb-divider,"／");
+    }
+    img {  
+   user-drag: none;  
+   user-select: none;
+   -moz-user-select: none;
+   -webkit-user-drag: none;
+   -webkit-user-select: none;
+   -ms-user-select: none;
+}
+a
+{
+  cursor: pointer;
+}
+a:hover
+{
+  color: #222;
+  text-decoration: underline;
+}
+
+
+
+/* ===== Scrollbar CSS ===== */
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #244d91;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  .mb-1
+  {
+    font-size: 1rem;text-align: center;letter-spacing: 1px;
+  }
+  .hov
+  {
+    color: #081f46 !important;
+  }
+  .hov:hover
+  {
+    letter-spacing: 3px;
+    transition: all 0.7s;
+    background-color: bisque;
+  }
+</style>
+</head>
+<body>
+    <section style="background-color: antiquewhite;">
+        <div class="container py-5">
+          <div class="row">
+            <div class="col">
+              <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4" style="box-shadow: 1px 2px 6px 2px black;background-color: #fff !important;">
+                <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item"><a href="#0">GitHub</a></li>
+                  <li class="breadcrumb-item"><a href="https://github.com/Jay2103">Jay2103</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Profile</li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+      
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="card mb-4">
+                <div class="card-body text-center" style="border-radius: 0.5rem; border: 1.5px solid;">
+                  <img src="profile/27747831-D614-4FBC-B3AB-C147426A29AB.jpeg" alt="avatar"
+                    class="rounded-circle img-fluid" style="width: 180px;border-radius: 2%!important;filter: drop-shadow(2px 4px 6px black);">
+                  <h5 class="my-3">Jay Parekh</h5>
+                  <p class="text-muted mb-1">Social Media Handler</p>
+                  <p class="text-muted mb-4"> Anand,Gujarat</p>
+                  <div class="d-flex justify-content-center mb-2">
+                    <button type="button" class="btn btn-primary" onClick="inst()">Follow</button>
+                    <button type="button" class="btn btn-outline-primary ms-1" onClick="wa()">Message</button>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-4 mb-lg-0" style="border-radius: 0.5rem; border: 1.5px solid;">
+                <div class="card-body p-0">
+                  <ul class="list-group list-group-flush rounded-3">
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                   
+                      <span class="text-primary font-italic me-1" style="color: black !important;font-size: 17px;">Contact</span>
+      
+                  </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fas fa-globe fa-lg text-warning"></i>
+                      <p class="mb-0"> <a href="#0"></a>https://mdbootstrap.com</p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-github fa-lg" style="color: #333333;"></i>
+                      <p class="mb-0">  <a href="https://github.com/Jay2103">jay2103</a></p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fab fa-instagram fa-lg" style="color: #ac2bac;"></i>
+                      <p class="mb-0">
+                        <a href="https://www.instagram.com/j.p_digital1/">J.P_Digital</a>
+                      </p>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center p-3">
+                      <i class="fas fa-envelope fa-lg" style="color: #3a3a3a;"></i>
+                      <p class="mb-0">
+                        <a href="mailto:Jpdigital2109@gmail.com">JPDigital</a>
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <div class="card mb-4">
+                <div class="card-body" style="border-radius: 0.5rem; border: 1.5px solid;">
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Full Name</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">Jay Parekh</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Email</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">Jpdigital2109@gmail.com</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Phone</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">(+91)8690379161</p>
+                    </div>
+                  </div>
+                  <hr>
+                  <div class="row">
+                    <div class="col-sm-3">
+                      <p class="mb-0">Address</p>
+                    </div>
+                    <div class="col-sm-9">
+                      <p class="text-muted mb-0">Anand, Gujarat</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card mb-4">
+                <div class="card" id="scrll" >
+                  <div class="card-body" style="border-radius: 0.5rem; border: 1.5px solid;overflow: auto;height: 250px;">
+                    <span>Hey, Greetings from JP Digital. We are working on Social Media Handling, and We manage Many Companies Social media account. We provide wide range of facilities to our client’s. Our Service Provide you to Grow Business on Online platform and it open great upcoming opportunity for your business.</span>
+                    <ul> ➔ <strong> Services : </strong>
+                    <li>We Are Managing Instagram, Facebook And Other Social Media Platforms.</li>
+                    <li>Regular Updates on Your Social Media Platform.</li>
+                    <li> Photos And Reels Will Be Post On Schedule Timing.</li>
+                    <li>Well Design Post And Grid Maintain Of Instagram.</li>
+                    <li>Account Growing With Organic Way And 100% Result In Terms Of Massages And Followers.</li>
+                    <li>Concept Wise Data and Trending Data Created and Posting On Platform.</li>
+                    <li>All Editing Work Done In This Uploading.</li>
+                    <li>Yearly Main Festival Graphic Design Stories Will Be Posted.</li>
+                    <li>Photography and videography available. with [extra charges].</li>
+                    <li>Graphic design work available with [extra charges].</li>
+                    <li>Website management.</li>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+
+
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card mb-4 mb-md-0">
+                    <div class="card-body" style="border-radius: 0.5rem; border: 1.5px solid;">
+                      <p class="mb-4"><span class="text-primary font-italic me-1" style="color: black !important;font-size: 17px;">Clients</span>
+                      </p>
+                      <p class="mb-1">
+                        <strong><a href="https://www.instagram.com/shubhlaxmianand/" class="hov">Shubhlaxmi Anand</a></strong>
+                      </p>
+                      <div class="progress rounded" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p class="mt-4 mb-1">
+                        <strong><a href="instagram.com/tonnydesigners/" class="hov">Tonny Designer</a></strong>
+                      </p>
+                      <div class="progress rounded" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p class="mt-4 mb-1" >
+                        <strong><a href="https://www.instagram.com/kenzer_anand/" class="hov">Kenzer Anand</a></strong>
+                      </p>
+                      <div class="progress rounded" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p class="mt-4 mb-1">
+                        <strong><a href="https://www.instagram.com/aneri_nx/" class="hov">Aneri NX</a></strong>
+                      </p>
+                      <div class="progress rounded" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p class="mt-4 mb-1" >
+                        <strong><a href="https://www.instagram.com/final_choice_vvn/" class="hov">Final Sixteen</a></strong>
+                      </p>
+                      <div class="progress rounded mb-2" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card mb-4 mb-md-0">
+                    <div class="card-body" style="border-radius: 0.5rem; border: 1.5px solid;">
+                      <p class="mb-4"><span class="text-primary font-italic me-1"></span> 
+                      </p>
+                      <p class="mb-1" >
+                        <strong><a href="https://www.instagram.com/arisoverseas/" class="hov"> Aris Overseas</a></strong>
+                      </p>
+                      <div class="progress rounded" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p class="mt-4 mb-1" >
+                        <strong><a href="https://www.instagram.com/subway_v.v.nagar/" class="hov">Subway V.v.nagar</a></strong>
+                      </p>
+                      <div class="progress rounded" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p class="mt-4 mb-1">
+                        <strong><a href="https://www.instagram.com/subway_nadiad/" class="hov">Subway Nadiad</a></strong>
+                      </p>
+                      <div class="progress rounded" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p class="mt-4 mb-1">
+                        <strong><a href="https://www.instagram.com/piby2_cafe_anand/" class="hov">PI by 2</a></strong>
+                      </p>
+                      <div class="progress rounded" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <p class="mt-4 mb-1">
+                        <strong><a href="https://www.instagram.com/shagun_fashion_surat/" class="hov">shagun_fashion</a></strong></p>
+                      <div class="progress rounded mb-2" style="height: 2px;">
+                        <div class="progress-bar" role="progressbar" style="width: 100%" aria-valuenow="100"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="row">
+            <div class="col">
+              <nav aria-label="breadcrumb" class="bg-light rounded-3 p-3 mb-4" style="box-shadow: 1px 2px 6px 2px black;margin-top: 1.5rem!important;">
+                <center>
+                  <span><span id="year"></span> Developed & Managing By <span style="text-decoration: underline;">Tirth Bhatt</span> with ❤️</span>&nbsp; | &nbsp;
+                  <span class="breadcrumb-item"><a href="https://github.com/tirthbhatt21" title="Github">  <img src="https://img.icons8.com/?size=50&id=118557&format=png"> </a></span>
+                  <hr/>
+	<div style="display:flex;">Visitors:<div class="website-counter" style="text-align:center;"></div></div>
+              </center>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+
+      <script>
+
+let year = document.querySelector("#year");
+
+$(document).ready(function () {
+  year.innerText = new Date().getFullYear();
+});
+
+
+   function inst() {
+          window.location.href="https://www.instagram.com/j.p_digital/";
+        }
+        function wa() {
+        window.location.href ="https://api.whatsapp.com/send?phone=8690379161";
+        }
+
+        let showalert = false;
+const interval = setInterval(()=>{
+  document.title = showalert ? 'Welcome To My Profile' : 'Follow For More';
+  showalert =!showalert;
+},1000);
+
+
+document.addEventListener('contextmenu', (e) => e.preventDefault());
+
+function ctrlShiftKey(e, keyCode) {
+  return e.ctrlKey && e.shiftKey && e.keyCode === keyCode.charCodeAt(0);
+}
+
+document.onkeydown = (e) => {
+  // Disable F12, Ctrl + Shift + I, Ctrl + Shift + J, Ctrl + U
+  if (
+    event.keyCode === 123 ||
+    ctrlShiftKey(e, 'I') ||
+    ctrlShiftKey(e, 'J') ||
+    ctrlShiftKey(e, 'C') ||
+    (e.ctrlKey && e.keyCode === 'U'.charCodeAt(0))
+  )
+    return false;
+};
+
+
+document.addEventListener('keyup', (e) => {
+    if (e.key == 'PrintScreen') {
+        navigator.clipboard.writeText('');
+        alert('Screenshots disabled!');
+    }
+});
+
+/** TO DISABLE PRINTS WHIT CTRL+P **/
+document.addEventListener('keydown', (e) => {
+    if (e.ctrlKey && e.key == 'p') {
+        alert('This section is not allowed to print or export to PDF');
+        e.cancelBubble = true;
+        e.preventDefault();
+        e.stopImmediatePropagation();
+    }
+});
+
+
+var counterContainer = document.querySelector(".website-counter");
+var visitCount = localStorage.getItem("page_view");
+
+// Check if page_view entry is present
+if (visitCount) {
+  visitCount = Number(visitCount) + 1;
+  localStorage.setItem("page_view", visitCount);
+} else {
+  visitCount = 1;
+  localStorage.setItem("page_view", 1);
+}
+counterContainer.innerHTML = visitCount;
+
+// Adding onClick event listener
+resetButton.addEventListener("click", () => {
+  visitCount = 1;
+  localStorage.setItem("page_view", 1);
+  counterContainer.innerHTML = visitCount;
+});
+      </script>
+
+</body>
+</html>
